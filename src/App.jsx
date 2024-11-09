@@ -46,6 +46,14 @@ export default function App() {
   return (
     <S.Screen>
       <S.Header>
+        <S.HeaderTop>
+          <S.TextoHeader $fontsize={"28px"}>
+            Encontre o serviço ideal para sua necessidade
+          </S.TextoHeader>
+          <S.TextoHeader $fontsize={"18px"}>
+            Entre em contato com o prestador para negociar e agendar o serviço!
+          </S.TextoHeader>
+        </S.HeaderTop>
         <S.InputBusca
           onChange={onChangePesquisa}
           ref={pesquisa}
@@ -75,6 +83,7 @@ export default function App() {
           />
         ))}
       </S.Body>
+      <div className="elfsight-app-2ce829ed-ceaa-4034-b955-6bbfeb1575f8" data-elfsight-app-lazy></div>
     </S.Screen>
   );
 }
