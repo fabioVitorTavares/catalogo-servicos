@@ -4,7 +4,7 @@ export const S = {
   Card: styled.div`
     position: relative;
     width: 300px;
-    height: 650px;
+    height: 700px;
     background-color: #343237;
     padding: 20px;
     border-radius: 10px;
@@ -55,5 +55,9 @@ export const S = {
   DadosContato: styled.div`
     width: 100%;
     align-items: center;
+  `,
+  LinkAgenda: styled.a`
+    position: absolute;
+    bottom: 90px;
   `
 };

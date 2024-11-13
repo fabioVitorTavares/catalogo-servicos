@@ -39,6 +39,13 @@ export default function Card({
         Entrar em contato
         <S.IconWpp src={imgWpp} alt="icon-wpp" />
       </S.Button>
+      <br />
+      <S.LinkAgenda
+        href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1jjfFjLeM9g8U6guexManVkkLLJ81ZP0D_k5zAH2cKYCU64qSnLHO1pO7jiAMb5-8L6bmQbObt"
+        target="_blank"
+        >
+        <span>Horários disponíveis</span>
+      </S.LinkAgenda>
     </S.Card>
   );
 }
